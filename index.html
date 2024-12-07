@@ -5,31 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <div>
+    <div class="container">
 
-        <h1>Learn to code by watching others</h1>
-        <p>
-            See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
-        </p>
+        <div class="page-text">
+
+            <h1 class="h1class" id="h1Id">Learn to code by watching others</h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        
+        </div>
+            
+        <div class="form-container">
+            <div class="cta round-edges container-shadow" id="uniqueCTA">
+                <p class="h1class"> <strong>Try it free for 7 days</strong> then $20/mo. thereafter</p>
+            </div>
+
+            <div class="form round-edges container-shadow">
+
+                <form>
+                    <input class="round-edges" type="text" name="first-name" placeholder="First Name" />
+                    <input class="round-edges" type="text" name="last-name" placeholder="Last Name" />
+                    <input class="round-edges" type="text" name="email" placeholder="Email Address" />
+                    <input class="round-edges" type="text" name="password" placeholder="Password" />
+                    <input class="round-edges" type="button" value="CLAIM YOUR FREE TRAIL" />
+                </form>
+                <p class="terms">
+                    By clicking the button you are agreeing to our <strong>Terms and Services</strong>
+                </p>
+
+            </div>
     
-    </div>
-
-        <p> <strong>Try it free for 7 days</strong> then $20/mo. thereafter</p>
-
-        <form>
-            <input type="text" name="first-name" placeholder="First Name" />
-            <input type="text" name="last-name" placeholder="Last Name" />
-            <input type="text" name="email" placeholder="Email Address" />
-            <input type="text" name="password" placeholder="Password" />
-            <input type="button" value="CLAIM YOUR FREE TRAIL" />
-        </form>
-        <p>
-            By clicking the button you are agreeing to our <strong>Terms and Services</strong>
-        </p>
-    <div>
+        </div>
 
     </div>
+    
 </body>
 </html>
